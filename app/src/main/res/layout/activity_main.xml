@@ -158,6 +158,15 @@
             android:onClick="onDigit"
             android:text="@string/_0"
             />
+        <Button
+            android:layout_margin="2dp"
+            android:id="@+id/btnDot"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:onClick="onDecimalPoint"
+            android:layout_weight="1"
+            android:text="@string/Dot"
+            />
 
         <Button
             android:layout_margin="2dp"
