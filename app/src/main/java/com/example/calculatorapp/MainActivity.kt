@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
             lastNumeric = false
             lastDot = true
     }
-
+    //Wwindows push
     fun onOperator(view: View) {
         tvInput?.text.let {
             if(lastNumeric && !isOperatorAdded(tvInput?.text.toString()))
