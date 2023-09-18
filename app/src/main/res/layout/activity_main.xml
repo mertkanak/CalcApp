@@ -15,7 +15,6 @@
         android:background="@color/ligh_grey"
         android:padding="10dp"
         android:textSize="48sp"
-        android:text="@string/calc_text"
         android:gravity="end|bottom"
         />
     
@@ -165,7 +164,7 @@
             android:id="@+id/btnCLR"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:onClick="onDigit"
+            android:onClick="onClear"
             android:layout_weight="1"
             android:text="@string/clr"
             />
